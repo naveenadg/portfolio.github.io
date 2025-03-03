@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background:#e0f7fa;
+    text-align: center; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(228, 220, 220); 
+    background:#2c3e50;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+
+}
+
+header nav ul li {
+    margin: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.section {
+    margin: 5rem auto; 
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 800px; 
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content p {
+    flex: 1;
+    margin-bottom:5px; 
+    font-family: serif;
+    line-height:1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #080808;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    margin: 45px auto; 
+  
+}
+nav ul li a.active { 
+
+color: rgb(218, 218, 208); 
+text-decoration-line: underline;
+}
+span{
+    color: rgb(165, 42, 42);
+    font-size: 50px;
+}
+.section ul{
+    margin: 10px;
+}

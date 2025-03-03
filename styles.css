@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+
+#Home{
+    display: flex;
+}
+.imgdiv img{
+    padding: 50px;
+    width: 350px;
+    height: 350px;
+    margin-left:140px;
+
+    
+}
+.para{
+    text-align:left;
+    width: auto;
+    padding: 100px;
+    margin: 30px;
+    color:#0f0e0e;
+    text-shadow: 4px 4px 8px rgba(17, 16, 16, 0.5);
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding: 2rem;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+header h1, header p {
+    margin: 0.5rem 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+    
+}
+header nav ul li a {
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:black;
+    
+}
+#welcome-text{
+    font-weight:800px;
+}
+#Home-content p{
+    font-weight:700px;
+
+}
+.para h3{
+    font-size:40px;
+}
+.imgdiv{
+    padding:30px;
+}
+.para button{
+    color: black;
+    
+    font-size: 20px;
+    padding:10px;
+    margin-left:250px;
+    background:brown;
+
+    
+}
+    
+a {
+    color: inherit; /* Inherit the text color of the parent element */
+    
+}
+
+
