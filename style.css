@@ -9,7 +9,18 @@ body {
     line-height: 1.5;
     background:#e0f7fa;
     text-align: center; 
+    animation: fadeIn 2s ease-in-out;
 }
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
 header {
     display: flex;
