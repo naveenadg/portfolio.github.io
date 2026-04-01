@@ -50,7 +50,7 @@ def save_to_db(data: Any) -> None:
         # Logic here...
         pass
     except:
-        # VIOLATION: RULE 17 (Reliability - Silent failure)
+        # VIOLATION: RULE 17 
         pass 
 
 # VIOLATION: RULE 11 (Debugging artifact leftover)
