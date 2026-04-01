@@ -63,4 +63,4 @@ def test_main_runs_without_uncaught_errors(monkeypatch):
 
     monkeypatch.setattr(requests, "get", fake_get)
 
-    assert main() == 0  
+    assert main() == 0 
