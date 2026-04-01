@@ -56,5 +56,3 @@ def save_to_db(data: Any) -> None:
 # VIOLATION: RULE 11 (Debugging artifact leftover)
 import pdb; pdb.set_trace()
  
-
- return "Done"
